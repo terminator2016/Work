@@ -1,0 +1,116 @@
+.container{
+	width: 980px;
+	margin: 0 auto;
+	height: 300px;
+	padding: 10px 0;
+	border: 1px solid #eee;
+	margin-top:15px;
+}
+.wrap{
+	width: 980px;
+	margin-right: 0;
+}
+.step{
+	height: 38px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+	background: url(../img/cart.gif) 15px 0px no-repeat;
+}
+.step li{
+	float: left;
+	width: 150px;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 50px;
+	font-size: 14px;
+	
+}
+.step li.current{
+	color: #fff;
+}
+.step .cart-data{
+	width: 980px;
+	
+}
+.cart-data .go-shopping{
+	width:90%;
+	text-align: center;
+	line-height: 60px;
+	margin: 10px auto;
+	border: 1px solid #e4e4e4;
+}
+.cart-area{
+	padding: 0 15px;
+}
+.cart-area table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+.cart-area th{
+	line-height: 36px;
+	padding: 0 6px;
+	font-weight: 600;
+	text-align: left;
+	background: #ededed;
+}
+.cart-area th input{
+	vertical-align: middle;
+	outline: none;
+}
+.cart-area .cent{
+	text-align: center;
+}
+.cart-area td{
+	line-height: 20px;
+	padding: 10px 5px;
+	border: 1px solid #ddd;
+}
+.cart-area td a{
+	color: #333;
+	
+}
+.cart-area td img{
+	width: 60px;
+	height: 60px; 	
+}
+.cart-area td .commodity{
+	width: 450px;
+	height: 80px;
+}
+.cart-area td .commodity a{
+	color: #333;
+}
+.cart-area .count{width:80px;
+	height:18px;line-height:18px;border:solid 1px #cacbcb;text-align:center;display:block;
+		background:#fff;}
+.cart-area .count .decrease{display:block;float:left;width:17px;border-right:solid 1px #cacbcb;
+		text-decoration:none;color:#666}
+.cart-area .count .add{display:block;float:left;width:17px;border-left:solid 1px #cacbcb;text-decoration:none;
+		color:#666}
+.cart-area .count p{width:43px;float:left;color:#666}
+.cart-area .pro-total{
+	width:300px;
+	height: 30px;
+	float: right;
+	padding-top: 10px;
+	
+}
+
+.cart-area .clear-btn{
+	width: 180px;
+	height: 40px;
+	float: right;
+	border-radius: 3px;
+	background: red;
+}
+.cart-area .clear-btn .submit{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px 15px;
+	color: #fff;
+}

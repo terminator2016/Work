@@ -1,0 +1,256 @@
+.contain{
+	width: 980px;
+	height: 597px;
+	margin: 20px auto;
+	padding: 20px;
+}
+.product-show{
+	float: left;
+	padding-bottom: 15px;
+	display: inline;
+	width: 415px;
+}
+.small-box{
+	width:400px;
+		border:1px solid #ccc;
+		position:relative;
+		float:left;
+		cursor:move;
+		overflow:hidden;
+}
+.small-box img{
+	width: 400px;
+	
+}
+.small-box div{
+	display: none;
+}
+.small-box .tool{
+		width:200px;
+		height:200px;
+		background-color:gold;
+		opacity:0.7;
+		filter:alpha(opacity=70);
+		position:absolute;
+		left:0;
+		top:0;
+		display:none;
+}
+.small-box .tool.active{
+	display: block;
+}
+.select{
+	width: 360px;
+	top:720px;
+	left: 230px;
+	position: absolute;
+	overflow: hidden;
+}
+.list li{
+	float: left;
+	width: 72px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.list li img{
+	width: 60px;
+	height: 60px;
+	padding:2px;
+}
+.big-box{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: -405px;
+	z-index: 99;
+	left:400px;
+	overflow: hidden;
+	background: blue;
+	display: none;
+}
+.big-box.active{
+	display: block;
+}
+.big-box img{
+	width: 800px;
+	position: absolute;
+}
+.big-box div{
+	display: none;
+}
+.lt{
+	font-size: 32px;
+	position: absolute;
+	top: 734px;
+	left: 210px;
+	font-weight: 900;
+}
+.gt{
+	font-size: 32px;
+	position: absolute;
+	top: 734px;
+	left: 590px;
+	font-weight: 900;
+}
+
+/*----------------------------------------放大镜-------------------------------------------*/
+.produc-param{
+	margin-left: 435px;
+}
+.pram .title{
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 700;
+	color: #666;
+	
+}
+.pram .p-exp{
+	color: #e63c3f;
+	padding: 3px 0 10px;
+	font-size: 14px;
+	
+}
+.pram .p-price{
+	position: relative;
+	height: 45px;
+}
+.pram .p-price .lb{
+	float: left;
+	widows: 70px;
+	text-align: right;
+	padding-top: 19px;
+}
+.pram .p-price .priceshow{
+	float: left;
+	color: #ff0000;
+}
+.pram .p-price .priceshow span{
+	font-size: 30px;
+	padding-right: 2px;
+}
+.pram .p-sale{
+	width: 300px;
+	padding: 10px 0;
+	margin-right: 100px;
+}
+.pram .p-sale .lb{
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+.pram .p-sale .span{
+	color: #ff0000;
+}
+.pram .p-garder{
+	padding: 8px 0;
+}
+.pram .p-garder .dt{
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+.pram .p-garder .dd{
+	float: left;
+	margin: 3px 30px 0 0;
+}
+.pram .p-garder .dd span{
+	display: block;
+	width: 70px;
+	height: 12px;
+	
+}
+.pram .p-garder .dd span i{
+	display: block;
+	height: 12px;
+	overflow: hidden;
+	background: url(../img/star_icon.png) no-repeat;
+	
+}
+.choose{
+	margin-top:20px ;
+}
+.choose .p-faor{
+	padding: 8px 0;
+}
+.choose .dt{
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+.choose .dd{
+	margin: 0 0 0 70px;
+}
+.choose .dd a{
+	float: right;
+	padding-right: 18px;
+	background: url(../img/drop_up.png) right center no-repeat;
+}
+.c-num .dt{
+	line-height: 28px;
+}
+.c-num .dd{
+	margin: 0 0 0 70px;
+	}
+.c-num .num-btn{
+	position: relative;
+	display: inline;
+}
+
+.c-num .num-btn .decrease{
+	float: left;
+	display: block;
+	width: 8px;
+	height: 26px;
+	cursor: pointer;
+	text-indent: -999px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background: #e5e5e5 url(../img/p8_img.png) -179px -110px no-repeat;
+
+}
+.c-num .num-btn .add{
+	float: left;
+	display: block;
+	width: 8px;
+	text-indent: -999px;
+	height: 26px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background: #e5e5e5 url(../img/p8_img.png) -113px -110px no-repeat;
+
+}
+.c-num .num-btn .quanitiy{
+	float: left;
+	display: inline;
+	width: 40px;
+	height: 26px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	overflow: hidden;
+	background: #fff;
+}
+.c-num .num-unit{
+	padding-left: 10px;
+}
+.join-buy{
+	display: block;
+	margin-top:40px ;
+}
+.join-buy a{
+	float: left;
+	text-indent: -999px;
+	display: block;
+	width: 146px;
+	height: 40px;
+	margin-right: 15px;
+	overflow: hidden;
+	background: url(../img/p8_img.png) 0 -145px no-repeat;
+}
+.join-buy .favorite{
+	background-position: -156px -145px;
+}

@@ -1,0 +1,380 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,
+ul{margin:0;padding:0}  
+table {border-collapse:collapse;border-spacing:0;}   
+fieldset,img {border:0;}   
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}   
+button,input,select,textarea{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+outline:none;}
+em {font-style:normal} 
+small{font-size:12px} 
+ol,ul {list-style:none; }   
+caption {text-align:left; }   
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;font-family:Microsoft YaHei;} 
+h2,h3{font-size:14px;font-weight:600;color:#333;}  
+q:before,q:after {content:'';}   
+abbr,acronym {border:0; }
+i {font-style:normal;}
+body{ font-size:12px; line-height:1.5; font-family:SimSun,Arial,"Microsoft YaHei"; color:#555; 
+background:#fff;_background: #fff url(about:blank) fixed;}
+a { color:#555; text-decoration:none; hide-focus:expression(this.hideFocus=true );outline: none;}
+a:hover { color:#e60012;text-decoration:underline;}
+.fl{float: left;}
+.fr{float: right;}
+.none{display: none;}
+/*------------------------初始css----------------------------------*/
+
+.toolbar{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.top{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.top{
+	height: 29px;
+
+}
+.top .fl{
+	width: 510px;
+	height: 29px;
+
+}
+.top .fr{
+	width: 363px;
+	height: 29px;
+
+}
+.top ul li{
+	float: left;
+	padding: 0 5px;
+	line-height: 29px;
+	font-family: "Microsoft YaHei";
+}
+.loges, .reg{
+	color: #ed4545;
+}
+.aplie{
+	background: url(../img/p8_img.png) no-repeat;
+	width: 90px;
+	text-indent: -999px;
+	overflow: hidden;
+	height: 20px;
+	margin-top: 4px;
+	display: block;	
+}
+.qq{
+	background: url(../img/p8_img.png) no-repeat;
+	background-position: -100px 0;
+	width: 50px;
+	text-indent: -999px;
+	overflow: hidden;
+	height: 20px;
+	margin-top: 4px;
+	display: block;	
+}
+.weibo{
+	background: url(../img/p8_img.png) no-repeat;
+	background-position: -160px 0;
+	width: 85px;
+	text-indent: -999px;
+	overflow: hidden;
+	height: 20px;
+	margin-top: 4px;
+	display: block;	
+}
+/*--------------------我的良品-------------------*/
+
+.fr .t-space{
+	width: 1px;
+	height: 29px;
+	color: #ddd;
+	text-align: center;
+	padding: 0;
+}
+.top-flow{
+	height: 29px;
+	color: #999;
+	position: relative;
+	z-index: 99;
+}
+.flow-on{
+	position: absolute;
+	left: 0;
+	top: 29px;
+	color: #666;
+	padding: 0 10px;
+	background: #fff;
+	border: 1px solid #666;
+	display: none;
+	
+}
+.fll-wb{
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #666;
+}
+.flow-on p{
+	width: 100px;
+	height: 32px;
+	line-height: 16px;
+	padding: 5px 0 5px 35px;
+	background: url(../img/p8_img.png)no-repeat;
+	background-position: -570px 7px;
+}
+.tel{
+	height: 29px;
+	padding-left: 15px;
+	background: url(../img/get_icon.png)0 7px no-repeat;
+
+	display: block;
+}
+.tel em{
+	font-size: 16px;
+	font-weight: 600;
+	color: #ff5160;
+
+}
+.sever{
+	display: inline-block;
+	padding:5px 28px 6px 0;
+	height: 16px;
+	line-height: 16px;
+	background: #f14648;
+	overflow: hidden;	
+	position: relative;
+	color: #fff;
+}
+.sever:hover{
+	color: #fff;
+}
+.sever i{
+	width: 25px;
+	height: 26px;
+	position: absolute;
+	top: 4px;
+	right: 0px;
+	margin-left: 0px;
+	background: url(../img/p8_img.png)-410px 0 no-repeat;
+	display: inline-block;
+}
+.log-header{
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0 50px;
+	overflow: hidden;
+}
+.slogo{
+	float: left;
+	margin-left: 5px;
+}
+.slogo a{
+	display: block;
+	width: 130px;
+	height: 44px;
+	text-indent: -999px;
+	overflow: hidden;
+	background: url(../img/logo.png) no-repeat;
+}
+.sub-tit{
+	float: left;
+	line-height: 30px;
+	font-size: 20px;
+	margin: 10px 0 0 15px;
+	padding-left:15px ;
+	border-left: 1px solid #e6201a;
+	font-family: "Microsoft YaHei";
+}
+form{
+	height: 591px;
+	width: 100%;
+}
+.reg{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.reg .reg-img{
+	float: left;
+	width: 500px;
+	padding: 20px;
+}
+.reg .reg-img img{
+	width: 500px;
+	height: 400px;
+	display: block;
+}
+.reg .reg-data{
+	float: right;
+	width: 425;
+}
+.reg-data .reg-title{
+	width: 292px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 115px;
+	border-top:3px solid #e83029;
+}
+.reg-data .reg-title .tit{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+.reg-data .reg-title .tolog{
+	float: right;
+}
+.reg-data .reg-title .tolog .free-red{
+	color: #e83029;
+}
+.reg .form-data{
+	padding: 0 10px;
+}
+.reg .form-data li{
+	position: relative;
+	line-height: 40px;
+	height: 40px;
+	padding: 13px 0;
+	
+}
+.reg .form-data li .lb-txt{
+	float: left;
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	font-weight: normal;
+	padding-right: 5px;
+}
+.reg .form-data li b{
+	color: red;
+}
+.reg .form-data li .username{
+	padding-right: 25px;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	width: 260px;
+	background: none;
+	background: url(../img/ico_login.png) right 8px no-repeat;
+}
+.reg .error{
+	position: absolute;
+	top:45px;
+	left:100px;
+	color:red;
+}
+.reg .error.active{
+	display: none;
+}
+.reg .form-data li .psd{
+	padding-right: 25px;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	width: 260px;
+	background: none;
+	background:url(../img/ico_login.png) right -192px no-repeat;
+}
+.reg .form-data li .qrm{
+	padding-right: 25px;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	width: 260px;
+	background: none;
+	background:url(../img/ico_login.png) right -192px no-repeat;
+}
+.reg .form-data li .number{
+	padding-right: 25px;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	width: 260px;
+	background: none;
+	background:url(../img/ico_login.png) right -58px no-repeat;
+}
+.reg .form-data li #code{
+	padding-right: 25px;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	width: 140px;
+	background: none;
+}
+.reg .form-data li .updateCode{
+	position: absolute;
+	width: 130px;
+	background-color: #f2f2f2;
+	font:bold 22px/38px "微软雅黑";
+	text-align: center;
+	right: 0;
+	color: #666;
+}
+.reg .form-data li .smaCode{
+	width: 144px;
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+}
+.reg .form-data li .code-btn{
+	float: left;
+	width: 130px;
+	height: 40px;
+	color: #666;
+	margin-left: 5px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	background: #f2f2f2;
+}
+.clause{
+	height: 40px;
+}
+.clause .agreement{
+	padding: 0 0 105px;
+}
+.clause .agreement input{
+	vertical-align: -2px;
+	margin-right: 10px;
+}
+#ck.active{
+	border: 1px solid red;
+}
+
+.submit{
+	padding-left: 105px;
+}
+.sub-btn{
+	width: 292px;
+	height: 38px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+	background: #f04747;
+}
+.foot{
+	margin: 0 auto;
+	width: 980px;
+	height: 80px;
+}
+.foot .copyright{
+	text-align: center;
+	padding: 20px 0 ;
+	color: #777;
+}
+
