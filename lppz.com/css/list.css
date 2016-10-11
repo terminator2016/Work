@@ -1,0 +1,84 @@
+.content{
+	width: 980px;
+	background: pink;
+	margin: 0 auto;
+}
+.content li{
+	float: left;
+	width: 220px;
+	padding: 10px 11px 10px 12px;
+	margin: 10px 0 10px 0px;
+	border-width:1px ;
+	border-style:solid;
+	border-color: #fff #fff #fff #eee;
+}
+.content li:hover{
+	border-color: #ff9191;
+}
+.content li .pt{
+	position: relative;
+}
+.content li .pic{
+	display: block;
+	width: 220px;
+	height: 220px;
+	margin: 0 auto;
+}
+.content li .pic img{
+	display: block;
+	width: 220px;
+	height: 220px;
+}
+.content li .tit{
+	display: block;
+	height: 36px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px 10px 0;
+	overflow: hidden;
+}
+.content li .prom{
+	color: #ff0000;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.content li .price{
+	padding: 5px 10px;
+}
+.content li .price span{
+	color: #e4393c;
+}
+.content li .price i{
+	font-size: 26px;
+	font-style: normal;
+}
+.content li .part{
+	padding: 0 10px;
+}
+.content li .cart{
+	width: 200px;
+	height: 28px;
+	line-height: 28px;
+}
+.content li .cart .add{
+	width: 96px;
+	color: #fff;
+	padding-left: 12px;
+	background-position: 0 -479px;
+	background: url(../img/p8_img.png) 0 -479px no-repeat;
+	display: block;
+	height: 28px;
+	font-size: 14px;
+	float: left;
+}
+.content li .cart .atte{
+	display: block;
+	float: left;
+	height: 28px;
+	width: 78px;
+	padding-left: 14px;
+	font-size: 14px;
+	background: url(../img/p8_img.png) -108px -479px no-repeat;
+}

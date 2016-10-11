@@ -1,0 +1,498 @@
+
+/*---------------------------------logo----------------------------------------*/
+.naver{
+	width: 100%;
+	height: 440px;
+	background-color: rgb(163, 216, 225);
+}
+
+.nav{
+	height: 440px;
+	position: relative;
+}
+.nav-list{
+	position: relative;
+	top: -34px;
+	left: 0;
+	z-index: 99px;
+	width: 178px;
+	height: 473px;
+	border: 1px solid #e61f19;
+	border-top:none ;
+	background: #fff;
+}
+.total{
+	position: relative;
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	padding-left: 60px;
+	background: #e61f19 url(../img/get_icon.png) 35px -559px no-repeat;
+}
+.total :hover{
+	color: #fff;
+}
+.total span{
+	float: left;
+	padding-left: 5px;
+}
+.total .icon{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	width: 12px;
+	height: 6px;
+	background: url(../img/p8_img.png) -388px 0 no-repeat;
+}
+.nav-sort{
+	position: relative;
+	width: 178px;
+	background: #fff;	
+}
+.nav-sort ul{
+	padding-top: 5px;
+	
+}
+.nav-sort ul li{
+	height: 36px;
+	vertical-align: top;
+}
+.top-sort{
+	shape-margin: 36px;
+	padding: 0 10px;
+}
+.top-sort.active{
+	background: red;
+}
+.top-sort h3{
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+}
+.top-sort a{
+	position: relative;
+	display: block;
+	height: 35px;
+	line-height: 36px;
+	font-size: 15px;
+	color: #666;
+	padding-left: 23px;
+	font-weight: normal;
+	border-bottom: 1px solid #e8e8e8;
+}
+.sub-sort{
+	position: absolute;
+	left: 178px;
+	top: -1px;
+	z-index: 100;
+	min-height: 439px;
+	padding: 0 10px;
+	border: 1px solid #e61f19;
+	background: #fff;
+	display: none;
+}
+.sub-sort li{
+	height: 36px;
+	border: none;
+	vertical-align: top;
+}
+.sub-sort a{
+	display: block;
+	width: 80px;
+	height: 35px;
+	line-height: 36px;
+	text-decoration: none;
+	padding-left: 30px;
+	border-bottom: 1px solid #e8e8e8;
+	white-space: nowrap;
+}
+.lbt{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	width: 800px;
+	height: 440px;
+	background: #fedea5;
+}
+.lbt-item img{
+	width: 800px;
+	height: 440px;
+}
+.dot{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+.dot span{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	font: 14px/24px "Microsoft YaHei";
+	margin: 0 5px;
+	color: #fff;
+	cursor: pointer;
+	background: url(../img/get_icon.png) -34px -1006px no-repeat;
+	
+}
+.dot .on{
+	background-position: 0 -1006px;
+}
+.rush{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 220px;
+}
+.rush-con{
+	float: left;
+	position: relative;
+	width: 220px;
+	height: 220px;
+}
+/*----------------------------------轮播图-----------------------------------------------*/
+.mainer{
+	width: 100%;
+	height: 3374px;
+}
+.main{
+	height: 3374px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.actives{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.actives ul{
+	width: 1220px;
+	
+}
+.actives ul li{
+	float: left;
+	width: 290px;
+	margin-right: 15px;
+}
+.actives ul li h3{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.start-sku{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.start-tit{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+}
+.start-tit h2{
+	float: left;
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: 600;
+	color: #333;
+}
+.start-tit .start-tab {
+	position: absolute;
+	left: 150px;
+	bottom: -6px;
+	z-index: 2;
+}
+.start-tit .start-tab li.active {
+	background: url(../img/p8_img.png) -120px -326px no-repeat;
+}
+.start-tit .start-tab li.active a{
+	color: #FFFFFF;
+}
+.start-tit .start-tab li{
+	font-size: 14px;
+	float: left;
+}
+.start-tit .start-tab li a{
+	display: block;
+	width: 109px;
+	height: 30px;
+	line-height: 30px;
+	padding-bottom: 6px;
+	text-align: center;
+}	
+.start-list{
+	display: block;
+}
+.start-list li{
+	float: left;
+	width: 240px;
+	height: 260px;
+	overflow: hidden;
+}
+/*--------------------------天天天惠---------------------------------*/
+.main .food-fire{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.fire-top{
+	float: left;
+	width: 240px;
+}
+.fire-title{
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.fire-title span{
+	float: left;
+	font-size: 22px;
+	font-weight: 600;
+	margin-right: 5px;
+}
+.fire-title h2{
+	font-size: 16px;
+	padding-top: 2px;
+	font-weight: 600;
+	color: #333;
+}
+.fire-slide{
+	width: 240px;
+	height: 343px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.fire-slide ul{
+	position: relative;
+	width: 240px;
+	/*background: url(../img/loading.gif) 50% 140px no-repeat;*/
+}
+/*-----------顶部---------------*/
+.fire-con{
+	float: left;
+	width: 960px;
+}
+.title-jk{
+	height: 30px;
+	line-height: 30px;
+	padding-top: 10px;
+	border-bottom: 2px solid #ff5160;
+	
+}
+.sct-tab{
+	float: left;
+	z-index: 2;
+}
+.sct-tab li{
+	float: left;
+	width: 94px;
+	height: 30px;
+	font-size: 14px;
+	
+}
+.sct-tab li.active{
+	background: url(../img/p8_img.png) -238px -325px no-repeat;
+}
+.sct-tab li.active a{
+	color: #FFFFFF;
+}
+.sct-tab li a{
+	display: block;
+	width: 94px;
+	height: 30px;
+	text-align: center;
+	color: #ff5160;
+	display: block;
+}
+.sct-hot{
+	float: right;
+	color: #bbb;
+}
+.sct-hot a{
+	margin-left: 15px;
+	padding: 0 5px;
+}
+/*----------------列表-----------------------------*/
+.sc-first{
+	float: left;
+	width: 239px;
+	height: 342px;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+.sc-first a{
+	width: 240px;
+	height: 340px;
+}
+/*-------------大图------------------*/
+.sc-list{
+	float: left;
+	width: 720px;
+	overflow: hidden;
+}
+.sc-list li{
+	position: relative;
+	float: left;
+	width: 229px;
+	height: 170px;
+	padding: 0 5px;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+}
+.sc-list .p-img{
+	width: 170px;
+	height: 170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sc-list .p-img img{
+	width: 170px;
+	height: 170px;
+}
+.sc-list .p-bg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 240px;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.8);
+}
+.sc-list .p-info{
+	position: absolute;
+	z-index: 5;
+	bottom: 0;
+	left: 0;
+	width: 220px;
+	height: 50px;
+	padding: 0 10px;
+}
+.sc-list .p-info a{
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: #333;
+	text-shadow: 0 0 2px #fff;
+	padding-top: 3px;
+	overflow: hidden;
+}
+.sc-list .price{
+	position: relative;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+	color:#e4393c ;
+	font-weight: 600;
+
+}
+.sc-list .price small{
+	font-size: 12px;
+	font-weight: normal;
+}
+/*-------------------------------------------------一楼--------------------------------------------*/
+.fruit{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main .meat{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main .store{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main .bread{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main .sugar{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.consult{
+	margin-bottom:20px ;
+}
+.consult h2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.consult .consult-area{
+	width: 1215px;
+	overflow: hidden;
+}
+.consult .consult-area li{
+	float: left;
+	width: 390px;
+	margin-right: 15px;
+}
+.consult .consult-area li h3{
+	line-height: 30px;
+	height: 30px;
+	font-style: normal;padding-left: 10px;
+}
+.consult .cons-box{
+	width: 390px;
+	height: 300px;
+	overflow: hidden;
+}
+/*----------------------------------------楼层------------------------------------------*/
+.floor-nav{
+	position: fixed;
+	top: 50%;
+	left: 20px;
+	z-index: 9px;
+	margin-top: -145px;
+	width: 42px;
+	
+}
+.fn-tit{
+	display: block;
+	width: 32px;
+	height: 37px;
+	line-height: 14px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	padding: 6px 5px 0 5px;
+	background: #df2627;
+}
+.floor-nav ul{
+	color: #fff;
+}
+.floor-nav ul li{
+	width: 42px;
+}
+.floor-nav ul li.active{
+	background: red;
+}
+.floor-nav ul li.active a{
+	color: #fff;
+}
+.floor-nav ul li a{
+	display: block;
+	width: 30px;
+	height: 33px;
+	line-height: 14px;
+	text-align: center;
+	padding: 7px 5px 0 5px;
+	border: 1px solid #dedede;
+	border-top: none;
+	overflow: hidden;
+}
+.floor-nav ul li a .iconfont{
+	color: #666;
+	font-size: 22px;
+	line-height: 28px;
+}
+.floor-nav ul li a span{
+	
+	display: block;
+	line-height: 14px;
+}
