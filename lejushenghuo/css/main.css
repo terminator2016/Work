@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+    font-style: normal;
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    max-width: 1160px;
+    display: block;
+    height:105px ;
+    margin:0 auto;
+    padding:20px 10px 30px 10px;
+}
+.top .logo{
+    float: left;
+    width:33.3333%;
+    display: block;
+
+}
+.top .right{
+    width:66.6666%;
+    float: left;
+}
+.top .right .login{
+    width:100%;
+    text-align: right;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.top .right .login a{
+    color:#888;
+    font-size: 12px;
+    margin: 5px;
+}
+.top .right .search{
+    width:100%;
+    display: block;
+    overflow: hidden;
+}
+.top .right form{
+    margin-left: 480px;
+    width:340px;
+
+    margin-top: 10px;
+}
+.top .right .txt{
+    width:66%;
+    height:26px;
+    border:1px solid #ccc;
+    color: #666;
+    outline: none;
+    background: #fff;
+    line-height: 26px;
+}
+.top .right .btn{
+    width:60px;
+    height:26px;
+    text-align: center;
+    line-height: 26px;
+    background: #329610;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    outline: none;
+}
+.nav{
+    width:100%;
+    background: #439F22;
+    text-align: center;
+}
+.nav ul{
+    max-width: 1180px;
+    margin:0 auto;
+    padding:0 10px;
+    display: flex;
+    justify-content:center ;
+    text-align:center;
+
+}
+.nav li{
+    float: left;
+    padding:7px;
+
+}
+.nav li:hover{
+    background:indianred;
+}
+.nav li a{
+    padding:0 35px;
+    font-size:14px;
+    color:#fff;
+    text-decoration: none;
+    line-height: 35px;
+}
+.lbt{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.lbt .item{
+    display: none;
+
+
+}
+.lbt .item.active{
+    display: block;
+}
+.lbt .item a img{
+    width:100%;
+}
+.lbt ul{
+    position: absolute;
+    bottom:5px;
+    right:15px;
+}
+.lbt li{
+    float: left;
+}
+.lbt li a{
+    display: block;
+    width:10px;
+    height:10px;
+    margin:0 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+}
+.lbt li a.active{
+    background: rgba(255,255,255,0.9);
+}
+.content{
+    width:100%;
+}
+.main{
+
+    padding:0 10px;
+    height:520px;
+    clear: both;
+    margin:70px 0 90px 0 ;
+}
+.main .con{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main .editor{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.main .element{
+    color:#999;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.main .path{
+    width:100%;
+}
+.main .span4{
+    width:33.33%;
+    display: block;
+    float: left;
+}
+.main .span4 .cons{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main .span4 .pic img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.main .span4 .desc a{
+    text-align: center;
+    color: #333;
+    display: block;
+    font-weight: blod;
+    font-size: 18px;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+.main .span4 .desc p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+.about{
+    width:100%;
+    height:495px;
+    padding-top: 50px;
+    background: url("../img/aa12.jpg")no-repeat;
+}
+.about .link{
+    max-width: 1180px;
+    padding:0 10px;
+    margin: 0 auto;
+}
+.about .link .us{
+    width:50%;
+    display: block;
+    float: left;
+    padding:0 10px;
+
+}
+.about .link .us h3{
+    font-size: 20px;
+    color: #fff;
+}
+.about .link .us p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 21px;
+}
+.about .link .us img{
+    width:100%;
+    height:auto;
+}
+.about .link .prod{
+    width:50%;
+    display: block;
+    padding:0 20px;
+    float: left;
+}
+.about .link .prod h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+.about .link .prod p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 21px;
+}
+.about .link .prod dl{
+    width: 100%;
+    display: block;
+}
+.about .link .prod dt{
+     float: left;
+     margin-right: 15px;
+ }
+.about .link .prod dt img{
+    width:140px;
+}
+.about .link .prod dd{
+
+    display: block;
+}
+.about .link .prod dd p{
+    font-size: 12px;
+    color: #fff;
+
+
+    display: block;
+}
+.about .link .prod ul{
+    width:100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.about .link .prod li{
+    width:100%;
+    display: block;
+    line-height: 26px;
+    position: relative;
+    border-bottom: 1px dashed #fff;
+
+}
+.about .link .prod li a{
+    font-size: 12px;
+    float: left;
+    line-height: 16px;
+    color: #DFFFBF;
+    display: inline-block;
+    margin-right: 60px;
+    vertical-align: middle;
+    width:75%;
+
+}
+.about .link .prod li span{
+    color: #ccc;
+}
+.footer{
+    width:100%;
+    padding:40px 0;
+}
+.footer .adress{
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.footer .adress p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    
+}
+.footer .adress .banquan{
+    text-align: center;
+    color: #888;
+
+}
+.footer .adress .banquan p a{
+    text-align: center;
+    color: #888;
+
+}
+@media all and (max-width: 640px) {
+    .top{
+        width:100%;
+    }
+    .top .logo a{
+        width:70%;
+        display: block;
+    }
+    
+    .top .right{
+        width:100%;
+        float: left;
+        display: block;
+
+
+    }
+    .top .right .login{
+        text-align: center;
+        float:none;
+    }
+    .top .right .txt{
+        text-align: center;
+        display: block;
+        width:100%;
+        margin-top: 10px;
+        float:none;
+    }
+
+    .nav{
+        width:100%;
+        display: block;
+        clear: both;
+
+    }
+    .nav ul li:nth-child(1){
+        display: block;
+    }
+    .nav li{
+        display: none;
+    }
+    .nav li a{
+
+        font-size:14px;
+        color:#fff;
+        text-decoration: none;
+        line-height: 24px;
+    }
+
+    .top .right .txt{
+        width:66%;
+        height:26px;
+        border:1px solid #ccc;
+        color: #666;
+        outline: none;
+        background: #fff;
+        line-height: 26px;
+    }
+    .top .right .btn{
+        width:60px;
+        height:26px;
+        text-align: center;
+        line-height: 26px;
+        background: #329610;
+        border: none;
+        color:#fff;
+        cursor: pointer;
+        outline: none;
+    }
+
+}
+@media all and (min-width: 640px) and (max-width: 960px){
+    .nav li{
+
+    }
+}
